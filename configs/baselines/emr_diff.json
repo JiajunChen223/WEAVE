@@ -1,0 +1,33 @@
+{
+  "method_id": "emr_diff",
+  "seed": 0,
+  "effective_batch_size": 1,
+  "successful_optimizer_updates": 10000,
+  "checkpoint_selection": "last",
+  "offline_phases": [
+    {
+      "name": "supervised_training",
+      "successful_optimizer_updates": 10000,
+      "optimizer": {
+        "type": "Adam",
+        "lr": 0.0001,
+        "weight_decay": 0.0,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08
+      },
+      "loss": {
+        "type": "residual_L1_plus_three_decoder_L1"
+      },
+      "gradient_clip_norm": null,
+      "scheduler": {
+        "type": "constant",
+        "unit": "successful_optimizer_update",
+        "horizon": 10000
+      }
+    }
+  ],
+  "ema_decay": null
+}

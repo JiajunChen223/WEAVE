@@ -1,0 +1,11 @@
+{
+  "successful_optimizer_updates": 10000,
+  "seed": 0,
+  "effective_batch_size": 1,
+  "precision": "FP32",
+  "checkpoint_selection": "last",
+  "optimizer_and_loss": "method_specific",
+  "training_hr_crop": 128,
+  "preprocessing": "fixed_source_normalization",
+  "augmentation": "paired_D4_before_observation_generation"
+}

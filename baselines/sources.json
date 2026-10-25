@@ -1,0 +1,146 @@
+{
+  "cssnet": {
+    "display_name": "CSSNet",
+    "family": "learning",
+    "url": "https://github.com/rs-lsl/CSSNet",
+    "commit": "6f75e5e95285b7e332baeaca97b4747e91754b43",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "function.py": "15bb78f65464705f1684c12e8cb0a921449f2856048903c6e5722ff9c74348f3",
+      "loss_function.py": "8362e90b7d0039989a858150190fe7f518cb1907dd9f4cfe6c2da5c51bd74e3a",
+      "ours/ournet_structure_red_1014.py": "d38706baef56b9930ce88767b2e3d75814f68e0968a12b1362fe5534378f815c"
+    }
+  },
+  "psrt": {
+    "display_name": "PSRT",
+    "family": "learning",
+    "url": "https://github.com/shangqideng/PSRT",
+    "commit": "9c2be904f901d4b6e2991413adea753d94be73fd",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "model/model_SR.py": "226361aea31e356ad17f9a424481dae3d526562bd9ac18fa485e7fedc6caaa72"
+    }
+  },
+  "dcinn": {
+    "display_name": "DCINN",
+    "family": "learning",
+    "url": "https://github.com/wwhappylife/DCINN",
+    "commit": "d859e92a3dc78162002f5579120290c99d543853",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "utils.py": "66b7a1ea8c053ce91aa6cf563a6c2f8ada29b5b6a095fd23b1fe97a65c826c3f",
+      "haar_down.py": "d49db3e70c50fc5bbac5670f0c4ab14055024ac1d8628bd9643e28e52cba7e24",
+      "model/dcinn_hmf.py": "6371e5e87ab16855e73e06914e18a6667ddb58f5de902f3c4a99e33e87cff09c"
+    }
+  },
+  "le_mamba": {
+    "display_name": "LE-Mamba",
+    "family": "learning",
+    "url": "https://github.com/294coder/Efficient-MIF",
+    "commit": "134434abbabc894da07a3e10841729c668b0290a",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "model/module/layer_norm.py": "42c19ca1b5fbe0e06598d8bee0f539fde111567c6c33f884e6f22cef25e2b95c",
+      "model/module/vmamba_module_v3.py": "92866a9a0eddb3b2082e7e1c9ee7c496c02d38e9b087cb0f6538dd4d9cf79b39",
+      "model/LEMamba.py": "ba3b7394431912802f9373075367b8cfcd942de41abc641b73ea1a960a0e6b6a",
+      "model/module/helper_func.py": "c7c518f59c64568939a5b59c4d01f52766c3f5d4d6633d8c69de13509cd7bbd4",
+      "utils/loss_utils.py": "95bc8f6b4951bae8dc9f2b826618c3ce31464ff1e4f9aee287872f03a70b0c6b"
+    }
+  },
+  "ddif": {
+    "display_name": "DDIF",
+    "family": "learning",
+    "url": "https://github.com/294coder/Dif-PAN",
+    "commit": "e7e7ce4c2ec80e69d7be2eaac926aa84e0ae09bd",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "models/sr3_dwt.py": "51a6c84fe9abe41207f5be6a56b8ee88dc71a1512716ffac1d988542b968749e",
+      "diffusion/diffusion_ddpm_pan.py": "aff71e2b8ff72b0fa87c38312b9437d97b4d96733066226283a27a3a0eae2254"
+    }
+  },
+  "otias": {
+    "display_name": "OTIAS",
+    "family": "learning",
+    "url": "https://github.com/shangqideng/OTIAS",
+    "commit": "d4c2014a8af76cb7ee9fb2ce3a92267776f885ec",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "model/edsr.py": "a08ecf8e420732aa71695715a176fe6bb2ce48871757ab06f1d4cb92a466a8bc",
+      "model/otias.py": "57a2d75fd4f3e65c82c6d99eb3f8a35e679032c9a103bd4d5d002bf14b6ef3fa"
+    }
+  },
+  "hsc_sampling": {
+    "display_name": "HSC-Sampling",
+    "family": "learning",
+    "url": "https://github.com/1318133/HSC-Sampling",
+    "commit": "30a86a196c0daa64c081cb4f1f8d91f20bc265fe",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "HSC-sampling/net2/multiscale_specconvfront2_reschangemarx.py": "9bb0f46f17080381f6d7018bc965bded1bfabfedf9ac069d38e8f13fa51106b4"
+    }
+  },
+  "emr_diff": {
+    "display_name": "EMR-Diff",
+    "family": "learning",
+    "url": "https://github.com/luocz55/EMR-Diff",
+    "commit": "cc851ec7b597bbe259c1cdc413a13e19a386d228",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "CBMA.py": "fa89880dad40f14603a5115707362075231e434b2345d4b46e291b83c61979c6",
+      "core.py": "75d698962c24c513b7140767f6208de32276557c4972da3e274feba337260802",
+      "EMRDiff.py": "0c99ac3f782839d70debce1493468f48dc14aa84bd1ed68b8458920293b62a26",
+      "Test.py": "3e6a2e2c408cc6736f9cc3d55ccbe4536aa5db1efc7218a4520a7cf798b3b2ed",
+      "Train.py": "79afbe83f2fa7c8569c2604a04bbc18ba5bb774e9519a3857823cf6e64431d29",
+      "arch/BAFUnet.py": "d732fcf6ecb086f347c0c6ec422578e8e9a97e88405568df7d415a216e94d0a7",
+      "arch/basic_ops.py": "cfa304c37745b144df31f767af14922bb89e432dfdb1251bee62cd9a4a479a70",
+      "arch/fp16_util.py": "80447c0e9ad264492c1fade0e00f6f02a10ecfa00a1a2f3c79067419e3dabfac",
+      "arch/losses.py": "0b0f5a5532910fbc7f16d30f2b891d8f1e20aa88881589ce4eacc2cc6ce06026",
+      "arch/resample.py": "e7a19590deb7dd4dd9ef8e6d7991036182384716046e82fee22af48c7b9f13e8",
+      "arch/respace.py": "12a9bf00ec7ea11fa508aa34b61c4bc3ac9719a728b8ed4e2b8d3f1882884fb2",
+      "arch/script_util.py": "ab68d754c4e2b22168f1967c8ebe14521320a7e1d1ab04d4b7b04d3867a39b29",
+      "arch/solvers.py": "bbd767c45620f96a922823338da3a8804e1785e888a1d509c893c872cd256a68",
+      "arch/swin.py": "e8a0b8859d29a46d05e9e2dfafafd7f07509fdac60bc0567e751fb11dc42bc2a",
+      "arch/swin_transformer.py": "77d8f44171d2d01202736cfbce05ea9ecddba717f116573bbd84d1b8420a54f1",
+      "dataset_loader/dataloader.py": "6016eb1d377c3a60568f93db3c65d1c9eff0178071555c5fb0924c066b3b3f9a",
+      "model/ResShift_model.py": "69c85351ca9da0842613b1f09a5795ebe3ac03061ee31833cf5fcec542dcc48d",
+      "SRF/SRF_made.py": "1cc61f4bf3f930a1e353938afd4c547b5da8f1f203e924e017cfe961934f19c5"
+    }
+  },
+  "bhsrnet": {
+    "display_name": "BHSR-Net",
+    "family": "learning",
+    "url": "https://github.com/Dou0405/BHSR-Net",
+    "commit": "0b32678662ab67d14d92e4e5ac9bdb2dfb6d13c7",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {
+      "models.py": "ef131db45fa1f2594c69238b45a62cdd57c30ffb7c0701d5cbc641de8001e94b",
+      "modules.py": "236e9a2271b9698dd913d7c0ad4a1587303a45f0cefef65f5de26d056e145e95"
+    }
+  },
+  "cnmf": {
+    "display_name": "CNMF",
+    "family": "traditional",
+    "commit": null,
+    "paper_doi": "10.1109/TGRS.2011.2161320",
+    "url": "https://doi.org/10.1109/TGRS.2011.2161320",
+    "source_distribution": "paper_reference"
+  },
+  "hysure": {
+    "display_name": "HySure",
+    "family": "traditional",
+    "url": "https://github.com/alfaiate/HySure",
+    "commit": "8652a5838b95c29ca056f7921f8ac58def6bbaf7",
+    "paper_doi": "10.1109/TGRS.2014.2375320",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {}
+  },
+  "cstf": {
+    "display_name": "CSTF",
+    "family": "traditional",
+    "url": "https://github.com/renweidian/CSTF",
+    "commit": "e88435ccf7fadd4b19d68ff8a87d7749a3d769d9",
+    "paper_doi": "10.1109/TIP.2018.2836307",
+    "source_distribution": "obtain_separately_from_upstream",
+    "content_sha256": {}
+  }
+}

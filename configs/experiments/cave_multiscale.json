@@ -1,0 +1,33 @@
+{
+  "dataset": "cave",
+  "scales": [
+    2,
+    4,
+    8
+  ],
+  "external_methods": [
+    "cssnet",
+    "psrt",
+    "dcinn",
+    "le_mamba",
+    "ddif",
+    "otias",
+    "hsc_sampling",
+    "emr_diff",
+    "bhsrnet",
+    "cnmf",
+    "hysure",
+    "cstf"
+  ],
+  "training": "separate_model_at_each_scale",
+  "test_scenes": 12,
+  "observation": {
+    "kernel_size": "2*scale",
+    "sigma": "scale/2",
+    "sampling_phase": [
+      "scale//2",
+      "scale//2"
+    ]
+  },
+  "shared_protocol": "configs/common.json"
+}

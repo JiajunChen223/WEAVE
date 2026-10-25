@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weave-experiment-support"
+version = "0.1.0"
+description = "Experimental settings and supporting utilities for the WEAVE manuscript"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "torch>=2.1"]
+license = {file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+include = ["preprocessing*", "metrics*", "training*", "baselines*"]
+
+[tool.setuptools.package-data]
+baselines = ["sources.json"]

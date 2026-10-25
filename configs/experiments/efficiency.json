@@ -1,0 +1,35 @@
+{
+  "datasets": [
+    "cave",
+    "pavia_center"
+  ],
+  "external_learning_methods": [
+    "cssnet",
+    "psrt",
+    "dcinn",
+    "le_mamba",
+    "ddif",
+    "otias",
+    "hsc_sampling",
+    "emr_diff",
+    "bhsrnet"
+  ],
+  "device": "NVIDIA RTX 3090",
+  "precision": "FP32",
+  "batch_size": 1,
+  "cpu_threads": 6,
+  "warmup_calls_per_scene": 10,
+  "timed_calls_per_scene": 30,
+  "evaluation_split": "validation",
+  "scenes_per_dataset": 2,
+  "timing_scope": "complete_image_including_host_device_transfers",
+  "synchronize_gpu": true,
+  "latency_statistics": [
+    "P50_ms",
+    "P90_ms"
+  ],
+  "latency_aggregation": "equal_scene_mean",
+  "memory": "maximum_peak_allocated_GPU_bytes_across_scenes",
+  "quality": "same_timed_prediction_and_fixed_sampling_seed",
+  "parameter_count": "trainable_parameters"
+}

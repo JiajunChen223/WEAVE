@@ -1,0 +1,9 @@
+{
+  "method_id": "hysure",
+  "family": "traditional",
+  "training_budget": "not_applicable",
+  "seed": 0,
+  "solver_iterations": 200,
+  "spectral_basis": "observation_SVD",
+  "spectral_rank": 10
+}

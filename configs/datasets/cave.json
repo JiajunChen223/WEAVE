@@ -1,0 +1,59 @@
+{
+  "dataset": "cave",
+  "mode": "simulated",
+  "hsi_channels": 31,
+  "msi_channels": 3,
+  "spatial_observation": {
+    "scale": 4,
+    "kernel_size": 8,
+    "sigma": 2.0,
+    "phase": [
+      2,
+      2
+    ],
+    "boundary": "circular",
+    "sampling": "point",
+    "even_kernel_central_taps": 1.0
+  },
+  "training_crop": 128,
+  "scoring_bands": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "spectral_response": "fixed_dataset_specific_nonnegative_row_normalized",
+  "noise": "none",
+  "split_counts": {
+    "train": 18,
+    "validation": 2,
+    "test": 12
+  }
+}

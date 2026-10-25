@@ -1,0 +1,37 @@
+{
+  "method_id": "bhsrnet",
+  "seed": 0,
+  "effective_batch_size": 1,
+  "successful_optimizer_updates": 10000,
+  "checkpoint_selection": "last",
+  "offline_phases": [
+    {
+      "name": "supervised_training",
+      "successful_optimizer_updates": 10000,
+      "optimizer": {
+        "type": "Adam",
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0
+      },
+      "loss": {
+        "type": "bhsr_stage_l1_sobel",
+        "blur": 0.0,
+        "gradient_weight_before_update_2000": 0.01,
+        "gradient_weight_from_update_2000": 0.05,
+        "switch": "successful_optimizer_update_count"
+      },
+      "gradient_clip_norm": 0.5,
+      "scheduler": {
+        "type": "constant",
+        "unit": "successful_optimizer_update",
+        "horizon": 10000
+      }
+    }
+  ],
+  "ema_decay": null
+}

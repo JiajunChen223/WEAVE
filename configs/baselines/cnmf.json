@@ -1,0 +1,8 @@
+{
+  "method_id": "cnmf",
+  "family": "traditional",
+  "training_budget": "not_applicable",
+  "seed": 0,
+  "inner_iterations": 200,
+  "outer_iterations": 1
+}

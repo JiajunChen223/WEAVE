@@ -1,0 +1,34 @@
+{
+  "method_id": "hsc_sampling",
+  "seed": 0,
+  "effective_batch_size": 1,
+  "successful_optimizer_updates": 10000,
+  "checkpoint_selection": "last",
+  "offline_phases": [
+    {
+      "name": "supervised_training",
+      "successful_optimizer_updates": 10000,
+      "optimizer": {
+        "type": "Adam",
+        "lr": 0.0004,
+        "weight_decay": 1e-08,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08
+      },
+      "loss": {
+        "type": "mean_L1"
+      },
+      "gradient_clip_norm": null,
+      "scheduler": {
+        "type": "CosineAnnealingLR",
+        "T_max": 10000,
+        "eta_min": 1e-06,
+        "unit": "successful_optimizer_update"
+      }
+    }
+  ],
+  "ema_decay": null
+}

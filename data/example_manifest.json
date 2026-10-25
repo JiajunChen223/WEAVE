@@ -1,0 +1,12 @@
+{
+  "split": "train",
+  "response": "response.npy",
+  "records": [
+    {
+      "scene_id": "example_training_scene",
+      "split": "train",
+      "path": "scene.npz",
+      "origins": "origins.npy"
+    }
+  ]
+}

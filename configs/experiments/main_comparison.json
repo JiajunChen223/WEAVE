@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    "cave",
+    "harvard",
+    "chikusei",
+    "pavia_center"
+  ],
+  "external_methods": [
+    "cssnet",
+    "psrt",
+    "dcinn",
+    "le_mamba",
+    "ddif",
+    "otias",
+    "hsc_sampling",
+    "emr_diff",
+    "bhsrnet",
+    "cnmf",
+    "hysure",
+    "cstf"
+  ],
+  "main_scale": 4,
+  "external_comparison_cells": 48,
+  "evaluation": "fixed_final_checkpoint_on_test_scenes_or_regions",
+  "metrics": [
+    "MPSNR_dB",
+    "MSSIM_Wang",
+    "SAM_degrees",
+    "ERGAS"
+  ],
+  "aggregation": "equal_weight_mean_of_complete_scene_or_region_scores",
+  "learning_protocol": "configs/common.json"
+}

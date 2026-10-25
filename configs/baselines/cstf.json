@@ -1,0 +1,14 @@
+{
+  "method_id": "cstf",
+  "family": "traditional",
+  "training_budget": "not_applicable",
+  "seed": 0,
+  "tucker_ranks": [
+    240,
+    240,
+    9
+  ],
+  "rounds": 3,
+  "core_steps": 60,
+  "cg_steps": 30
+}
